@@ -1,9 +1,6 @@
 # Relógio Digital com Gradiente de Cores
 
 Este é um projeto simples de um relógio digital com a capacidade de personalizar o gradiente de cores de fundo.
-## Demonstração
-
-Inclua uma captura de tela ou um GIF animado que mostre o projeto em ação.
 
 ## Funcionalidades
 
