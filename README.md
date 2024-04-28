@@ -6,7 +6,7 @@
 
 Este projeto foi desenvolvido com base no trabalho incrível de [**Larissa Kich**](https://github.com/Larissakich). O vídeo tutorial fornecido por ela, [**Relógio Digital DINÂMICO | HTML, CSS e JS.**](https://www.youtube.com/watch?v=GK0ok3ZCXwM), serviu como fonte de inspiração para a implementação deste relógio digital personalizável.
 
-Agradecemos a [**Larissa Kich**] por compartilhar seu conhecimento e ideias, possibilitando a criação deste projeto.
+Agradeço a **Larissa Kich** por compartilhar seus conhecimentos e ideias, possibilitando a criação deste projeto.
 
 ## Funcionalidades
 
