@@ -1,38 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Relógio digital com personalização de cores em gradiente">
     <link rel="stylesheet" href="style.css">
-    <title>Relógio Digital</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Relógio Digital com Gradiente</title>
 </head>
 
 <body>
-
     <div class="color-pickers-container">
-        <div class="color-picker">
-            <input type="color" id="color-picker-1" class="input-color-picker">
+        <div class="color-picker" data-tooltip="Cor inicial do gradiente">
+            <label for="color-picker-1">Cor 1</label>
+            <input type="color" id="color-picker-1" class="input-color-picker" aria-label="Selecionar cor inicial do gradiente">
         </div>
-        <div class="color-picker">
-            <input type="color" id="color-picker-2" class="input-color-picker">
+        <div class="color-picker" data-tooltip="Cor final do gradiente">
+            <label for="color-picker-2">Cor 2</label>
+            <input type="color" id="color-picker-2" class="input-color-picker" aria-label="Selecionar cor final do gradiente">
         </div>
     </div>
 
-    <div class="relogio">
-        <div>
-            <span id="horas">00</span>
-            <span class="tempo">Horas</span>
+    <main>
+        <div class="relogio">
+            <div>
+                <span id="horas">00</span>
+                <span class="tempo">Horas</span>
+            </div>
+            <div>
+                <span id="minutos">00</span>
+                <span class="tempo">Minutos</span>
+            </div>
+            <div>
+                <span id="segundos">00</span>
+                <span class="tempo">Segundos</span>
+            </div>
         </div>
-        <div>
-            <span id="minutos">00</span>
-            <span class="tempo">Minutos</span>
-        </div>
-        <div>
-            <span id="segundos">00</span>
-            <span class="tempo">Segundos</span>
-        </div>
-    </div>
+    </main>
 
     <script src="script.js"></script>
 </body>
